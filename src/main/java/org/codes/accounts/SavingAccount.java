@@ -24,4 +24,10 @@ public class SavingAccount extends Account {
     public void setInterestRate(Double interestRate) {
         this.interestRate = interestRate;
     }
+
+    @Override
+    public void withdraw(double amount){
+        System.out.println("Override");
+        balance -= amount;
+    }
 }
