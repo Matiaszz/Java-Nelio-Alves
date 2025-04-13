@@ -1,6 +1,6 @@
 package org.codes.accounts;
 
-public class SavingAccount extends Account {
+public final class SavingAccount extends Account {
     private Double interestRate;
 
 
