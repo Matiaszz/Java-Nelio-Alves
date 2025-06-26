@@ -1,6 +1,5 @@
 package org.codes.banco;
 
-import org.jetbrains.annotations.NotNull;
 
 import java.math.BigInteger;
 import java.util.*;
@@ -39,7 +38,7 @@ public class Main {
 
     }
 
-    public static void register(@NotNull Scanner sc) {
+    public static void register(Scanner sc) {
         System.out.println("Enter account number: ");
         BigInteger number = sc.nextBigInteger();
         sc.nextLine();
